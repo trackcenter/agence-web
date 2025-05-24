@@ -3,12 +3,16 @@
 @import "flowbite/src/themes/default";
 
 
+h1, h2, h3, h4, h5, h6, p, a, label, span {
+    color: black;
+}
+
 nav,
 nav ul {
     background-color: black;
 }
 
-.link-pers a, span, button {
+.link-pers a, button {
     color: white;
 }
 
@@ -18,4 +22,8 @@ nav ul {
 
 .offers {
     border: 2px solid red;
+}
+
+.services-perso {
+    margin-bottom: 90px;
 }
