@@ -4,3 +4,20 @@
 @plugin "flowbite/plugin";
 @source "../node_modules/flowbite";
 @source "../node_modules/flowbite-datepicker";
+
+nav,
+nav ul {
+    background-color: black;
+}
+
+.link-pers a, span, button {
+    color: white;
+}
+
+.hero-perso {
+    margin-top: 50px;
+}
+
+.offers {
+    border: 2px solid red;
+}
